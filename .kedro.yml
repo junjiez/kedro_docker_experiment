@@ -1,0 +1,6 @@
+context_path: kedro_docker_experiment.run.ProjectContext
+project_name: "Kedro Docker Experiment"
+project_version: "0.16.6"
+package_name: "kedro_docker_experiment"
+hooks:
+  - kedro_docker_experiment.hooks.project_hooks
